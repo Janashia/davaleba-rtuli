@@ -1,0 +1,45 @@
+fun main(){
+}
+class point constructor(var x:Int,var y:Int){
+    var h = 0
+    var j = 0
+    init {
+    h = x
+    j = y
+    }
+    override fun toString(): String{
+    h=x.toString()
+    j=y.toString()
+    return h + " " + j
+    }
+    fun gamarjoba?(){
+        h = (-1)*h
+        j = (-1)*j
+        return h + " " + j
+    }
+    /** chamitvale **/
+}
+class Fraction{
+    var numerator: Double = 0.0
+    var denominator: Double = 0.0
+    var mricxveli: Double = 0.0
+    var mnishvneli: Double = 0.0
+    fun mimateba(Fraction: Any): Double{
+        var Nikoloz = (numerator/denominator) + (mricxveli/mnishvneli)
+        return Nikoloz
+
+    }
+    fun gamravleba(Fraction: Any): Double{
+        var Kacitadze = (numerator*mricxveli) / (denuminator*mnishvneli)
+        return kacitadze
+
+    }
+
+
+
+
+
+
+
+}
+
